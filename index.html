@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Dice</title>
+</head>
+<body>
+
+    <!--Making a conatiner to store the elements-->
+    <div class="container">
+
+        <!--The title-->
+        <h1 id="title">Roll a Dice</h1>
+
+        <!--The description-->
+        <p id="desc">Nothing much to say really...</p>
+
+        <!--the instruction-->
+        <p id="instruct">Click the dice to roll</p>
+
+        <!--Image of the dice-->
+        <img id="dice" src="Die(0).jpg" alt="a dice is supposed to be here" onclick="rollTheDice()"
+        width="150px" height="150px">
+
+        <!--Text which will tell the client what he got-->
+        <p id="result" class="hidden">Sample Text</p>
+    </div>
+</body>
+</html>
